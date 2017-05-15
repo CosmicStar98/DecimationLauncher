@@ -140,7 +140,7 @@ Partial Class Form1
         Me.lblVersion.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.lblVersion.AutoSize = True
         Me.lblVersion.ForeColor = System.Drawing.Color.Gray
-        Me.lblVersion.Location = New System.Drawing.Point(3, 458)
+        Me.lblVersion.Location = New System.Drawing.Point(3, 465)
         Me.lblVersion.Name = "lblVersion"
         Me.lblVersion.Size = New System.Drawing.Size(42, 13)
         Me.lblVersion.TabIndex = 8
@@ -152,7 +152,7 @@ Partial Class Form1
         Me.lblForgeNotification.AutoSize = True
         Me.lblForgeNotification.BackColor = System.Drawing.Color.Transparent
         Me.lblForgeNotification.ForeColor = System.Drawing.Color.IndianRed
-        Me.lblForgeNotification.Location = New System.Drawing.Point(3, 445)
+        Me.lblForgeNotification.Location = New System.Drawing.Point(3, 447)
         Me.lblForgeNotification.Name = "lblForgeNotification"
         Me.lblForgeNotification.Size = New System.Drawing.Size(0, 13)
         Me.lblForgeNotification.TabIndex = 9
@@ -169,6 +169,7 @@ Partial Class Form1
         Me.btnLaunch.BackColor = System.Drawing.Color.Black
         Me.btnLaunch.BackgroundImage = Global.DecimationLauncher.My.Resources.Resources.button
         Me.btnLaunch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnLaunch.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.btnLaunch.FlatAppearance.BorderSize = 0
         Me.btnLaunch.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnLaunch.Font = New System.Drawing.Font("Nirmala UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -217,7 +218,7 @@ Partial Class Form1
         Me.lblCopyright.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.lblCopyright.AutoSize = True
         Me.lblCopyright.ForeColor = System.Drawing.Color.Gray
-        Me.lblCopyright.Location = New System.Drawing.Point(277, 458)
+        Me.lblCopyright.Location = New System.Drawing.Point(277, 466)
         Me.lblCopyright.Name = "lblCopyright"
         Me.lblCopyright.Size = New System.Drawing.Size(187, 13)
         Me.lblCopyright.TabIndex = 10
@@ -228,7 +229,7 @@ Partial Class Form1
         Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoSize = True
         Me.Label1.ForeColor = System.Drawing.Color.Gray
-        Me.Label1.Location = New System.Drawing.Point(322, 445)
+        Me.Label1.Location = New System.Drawing.Point(322, 448)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(142, 13)
         Me.Label1.TabIndex = 11

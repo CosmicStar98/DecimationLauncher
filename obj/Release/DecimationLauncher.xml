@@ -27,6 +27,16 @@ DecimationLauncher
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:DecimationLauncher.My.Resources.Resources.button_click_1">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:DecimationLauncher.My.Resources.Resources.button_click_2">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
 <member name="P:DecimationLauncher.My.Resources.Resources.button_highlighted">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -42,7 +52,17 @@ DecimationLauncher
   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
 </summary>
 </member>
+<member name="P:DecimationLauncher.My.Resources.Resources.download_tick">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
 <member name="P:DecimationLauncher.My.Resources.Resources.globe">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:DecimationLauncher.My.Resources.Resources.launcher_image">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
