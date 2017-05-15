@@ -127,7 +127,7 @@ Partial Class Form1
         '
         Me.picMain.BackColor = System.Drawing.Color.Black
         Me.picMain.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.picMain.Image = Global.DecimationLauncher.My.Resources.Resources.globe
+        Me.picMain.Image = Global.DecimationLauncher.My.Resources.Resources.launcher_image
         Me.picMain.Location = New System.Drawing.Point(0, 0)
         Me.picMain.Name = "picMain"
         Me.picMain.Size = New System.Drawing.Size(479, 292)
