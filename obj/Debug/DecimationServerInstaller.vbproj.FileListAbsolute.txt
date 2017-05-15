@@ -9,3 +9,14 @@ C:\Users\Scott\Documents\Visual Studio 2015\Projects\DecimationFixer\obj\Debug\D
 C:\Users\Scott\Documents\Visual Studio 2015\Projects\DecimationFixer\obj\Debug\DecimationLauncher.exe
 C:\Users\Scott\Documents\Visual Studio 2015\Projects\DecimationFixer\obj\Debug\DecimationLauncher.xml
 C:\Users\Scott\Documents\Visual Studio 2015\Projects\DecimationFixer\obj\Debug\DecimationLauncher.pdb
+C:\Users\Scott\Source\Repos\DecimationLauncher\bin\Debug\DecimationLauncher.exe.config
+C:\Users\Scott\Source\Repos\DecimationLauncher\obj\Debug\DecimationLauncher.exe
+C:\Users\Scott\Source\Repos\DecimationLauncher\obj\Debug\DecimationLauncher.xml
+C:\Users\Scott\Source\Repos\DecimationLauncher\obj\Debug\DecimationLauncher.pdb
+C:\Users\Scott\Source\Repos\DecimationLauncher\bin\Debug\DecimationLauncher.exe
+C:\Users\Scott\Source\Repos\DecimationLauncher\bin\Debug\DecimationLauncher.pdb
+C:\Users\Scott\Source\Repos\DecimationLauncher\bin\Debug\DecimationLauncher.xml
+C:\Users\Scott\Source\Repos\DecimationLauncher\obj\Debug\DecimationServerInstaller.vbprojResolveAssemblyReference.cache
+C:\Users\Scott\Source\Repos\DecimationLauncher\obj\Debug\DecimationLauncher.Form1.resources
+C:\Users\Scott\Source\Repos\DecimationLauncher\obj\Debug\DecimationLauncher.Resources.resources
+C:\Users\Scott\Source\Repos\DecimationLauncher\obj\Debug\DecimationServerInstaller.vbproj.GenerateResource.Cache

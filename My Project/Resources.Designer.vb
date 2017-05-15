@@ -71,6 +71,24 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property button_click_1() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("button_click_1", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property button_click_2() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("button_click_2", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property button_highlighted() As System.Drawing.Bitmap
@@ -97,6 +115,15 @@ Namespace My.Resources
             Get
                 Dim obj As Object = ResourceManager.GetObject("default_icon", resourceCulture)
                 Return CType(obj,System.Drawing.Icon)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property download_tick() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("download_tick", resourceCulture)
             End Get
         End Property
         

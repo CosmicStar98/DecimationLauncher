@@ -142,10 +142,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\button_click_1.ogg" />
+    <None Include="Resources\button_click_2.ogg" />
     <None Include="Resources\decimation_logo1.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="iron1_OoQ_icon.ico" />
+    <None Include="Resources\download_tick.wav" />
+    <None Include="Resources\button_click_1.wav" />
+    <None Include="Resources\button_click_2.wav" />
     <None Include="Resources\button_highlighted.png" />
     <None Include="Resources\button.png" />
     <None Include="Resources\iron1_OoQ_icon.ico" />

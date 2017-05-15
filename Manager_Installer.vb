@@ -52,8 +52,6 @@ Public Class Manager_Installer
         My.Forms.Form1.dlBar.Visible = True
         client.DownloadFileAsync(New Uri("http://www.mcdecimation.net/download/Decimation-" & Manager_VersionControl.getVersion & ".zip"), downloadPath & "Decimation-" & Manager_VersionControl.getVersion & ".zip")
 
-        finishInstallation()
-
     End Function
 
     Shared Function finishInstallation()

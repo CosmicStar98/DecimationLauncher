@@ -7,6 +7,9 @@ Imports System.Drawing.Pen
 Imports System.Drawing.Rectangle
 
 Public Class Form1
+
+    Dim isHovering As Boolean = False
+
     Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles picMain.Click
         System.Diagnostics.Process.Start("http://www.mcdecimation.net/forums/")
     End Sub
@@ -37,6 +40,7 @@ Public Class Form1
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnLaunch.Click
+        My.Computer.Audio.Play(My.Resources.button_click_1, AudioPlayMode.Background)
         Manager_Installer.init()
     End Sub
 
@@ -44,13 +48,22 @@ Public Class Form1
 
         btnLaunch.BackgroundImage = My.Resources.button_highlighted
 
+        If (isHovering = False) Then
+            isHovering = True
+            My.Computer.Audio.Play(My.Resources.button_click_2, AudioPlayMode.Background)
+        End If
+
     End Sub
 
     Private Sub Button1_MouseLeave(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnLaunch.MouseLeave
         btnLaunch.BackgroundImage = My.Resources.button
+
+        isHovering = False
+
     End Sub
 
     Shared Sub client_ProgressChanged(ByVal sender As Object, ByVal e As DownloadProgressChangedEventArgs)
+
         Dim bytesIn As Double = Double.Parse(e.BytesReceived.ToString())
         Dim totalBytes As Double = Double.Parse(e.TotalBytesToReceive.ToString())
         Dim percentage As Double = bytesIn / totalBytes * 100
@@ -65,6 +78,7 @@ Public Class Form1
 
     Shared Sub client_DownloadCompleted(ByVal sender As Object, ByVal e As System.ComponentModel.AsyncCompletedEventArgs)
 
+        Manager_Installer.finishInstallation()
         My.Forms.Form1.lblDownload.Text = "Download Complete! - Use Minecraft Launcher to Play!"
 
     End Sub
