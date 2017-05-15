@@ -62,6 +62,11 @@ DecimationLauncher
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:DecimationLauncher.My.Resources.Resources.launcher_image">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:DecimationLauncher.My.Resources.Resources.minecraft_logo_transparent">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

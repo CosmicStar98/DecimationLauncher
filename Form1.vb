@@ -26,12 +26,23 @@ Public Class Form1
 
         Dim MyWebClient As New System.Net.WebClient
 
-        Dim ImageInBytes() As Byte = MyWebClient.DownloadData("http://www.mcdecimation.net/serverfiles/decimation/launcher_image.png")
+        Try
+            Dim ImageInBytes() As Byte = MyWebClient.DownloadData("http://www.mcdecimation.net/serverfiles/decimation/launcher_image.png")
 
-        Dim ImageStream As New IO.MemoryStream(ImageInBytes)
+            Dim ImageStream As New IO.MemoryStream(ImageInBytes)
+
+            picMain.Image = New System.Drawing.Bitmap(ImageStream)
+
+            ImageStream.Close()
+
+        Catch ex As Exception
+
+            picMain.Image = My.Resources.launcher_image
+
+        End Try
 
         lblVersion.Text = "Latest Game Version: " & Manager_VersionControl.getVersion
-        picMain.Image = New System.Drawing.Bitmap(ImageStream)
+
 
     End Function
 

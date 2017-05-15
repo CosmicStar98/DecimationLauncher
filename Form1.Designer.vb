@@ -140,7 +140,7 @@ Partial Class Form1
         Me.lblVersion.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.lblVersion.AutoSize = True
         Me.lblVersion.ForeColor = System.Drawing.Color.Gray
-        Me.lblVersion.Location = New System.Drawing.Point(9, 458)
+        Me.lblVersion.Location = New System.Drawing.Point(3, 458)
         Me.lblVersion.Name = "lblVersion"
         Me.lblVersion.Size = New System.Drawing.Size(42, 13)
         Me.lblVersion.TabIndex = 8
@@ -152,7 +152,7 @@ Partial Class Form1
         Me.lblForgeNotification.AutoSize = True
         Me.lblForgeNotification.BackColor = System.Drawing.Color.Transparent
         Me.lblForgeNotification.ForeColor = System.Drawing.Color.IndianRed
-        Me.lblForgeNotification.Location = New System.Drawing.Point(9, 445)
+        Me.lblForgeNotification.Location = New System.Drawing.Point(3, 445)
         Me.lblForgeNotification.Name = "lblForgeNotification"
         Me.lblForgeNotification.Size = New System.Drawing.Size(0, 13)
         Me.lblForgeNotification.TabIndex = 9

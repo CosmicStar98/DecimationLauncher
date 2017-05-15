@@ -148,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="iron1_OoQ_icon.ico" />
+    <None Include="Resources\launcher_image.png" />
     <None Include="Resources\download_tick.wav" />
     <None Include="Resources\button_click_1.wav" />
     <None Include="Resources\button_click_2.wav" />

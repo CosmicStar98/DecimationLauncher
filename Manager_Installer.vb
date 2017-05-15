@@ -50,6 +50,7 @@ Public Class Manager_Installer
         My.Forms.Form1.progBar.Value = 50
 
         My.Forms.Form1.dlBar.Visible = True
+
         client.DownloadFileAsync(New Uri("http://www.mcdecimation.net/download/Decimation-" & Manager_VersionControl.getVersion & ".zip"), downloadPath & "Decimation-" & Manager_VersionControl.getVersion & ".zip")
 
     End Function

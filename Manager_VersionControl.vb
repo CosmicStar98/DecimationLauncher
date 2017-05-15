@@ -13,15 +13,17 @@ Public Class Manager_VersionControl
             My.Computer.FileSystem.DeleteFile(TempPath & "ver.txt")
         End If
 
-        My.Computer.Network.DownloadFile("http://www.mcdecimation.net/serverfiles/decimation/latestversion.txt", TempPath & "ver.txt")
+        Try
+            My.Computer.Network.DownloadFile("http://www.mcdecimation.net/serverfiles/decimation/latestversion.txt", TempPath & "ver.txt")
+            Dim Reader As New IO.StreamReader(TempPath & "ver.txt")
+            Dim FileContents As String = Reader.ReadToEnd
+            Reader.Close()
+            Return FileContents.ToString
+        Catch ex As Exception
+            My.Forms.Form1.lblVersion.ForeColor = Color.Red
+            Return "UNKNOWN VERSION"
+        End Try
 
-        Dim Reader As New IO.StreamReader(TempPath & "ver.txt")
-
-        Dim FileContents As String = Reader.ReadToEnd
-
-        Reader.Close()
-
-        Return FileContents.ToString
 
     End Function
 
