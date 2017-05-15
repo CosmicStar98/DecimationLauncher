@@ -1,0 +1,11 @@
+C:\Users\Scott\Documents\Visual Studio 2015\Projects\DecimationFixer\bin\Release\DecimationLauncher.exe.config
+C:\Users\Scott\Documents\Visual Studio 2015\Projects\DecimationFixer\bin\Release\DecimationLauncher.exe
+C:\Users\Scott\Documents\Visual Studio 2015\Projects\DecimationFixer\bin\Release\DecimationLauncher.pdb
+C:\Users\Scott\Documents\Visual Studio 2015\Projects\DecimationFixer\bin\Release\DecimationLauncher.xml
+C:\Users\Scott\Documents\Visual Studio 2015\Projects\DecimationFixer\obj\Release\DecimationLauncher.Form1.resources
+C:\Users\Scott\Documents\Visual Studio 2015\Projects\DecimationFixer\obj\Release\DecimationLauncher.Resources.resources
+C:\Users\Scott\Documents\Visual Studio 2015\Projects\DecimationFixer\obj\Release\DecimationServerInstaller.vbproj.GenerateResource.Cache
+C:\Users\Scott\Documents\Visual Studio 2015\Projects\DecimationFixer\obj\Release\DecimationLauncher.exe
+C:\Users\Scott\Documents\Visual Studio 2015\Projects\DecimationFixer\obj\Release\DecimationLauncher.xml
+C:\Users\Scott\Documents\Visual Studio 2015\Projects\DecimationFixer\obj\Release\DecimationLauncher.pdb
+C:\Users\Scott\Documents\Visual Studio 2015\Projects\DecimationFixer\obj\Release\DecimationServerInstaller.vbprojResolveAssemblyReference.cache

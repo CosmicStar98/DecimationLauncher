@@ -1,0 +1,11 @@
+c:\users\scott\documents\visual studio 2015\Projects\DecimationFixer\bin\Debug\DecimationFixer.exe.config
+c:\users\scott\documents\visual studio 2015\Projects\DecimationFixer\bin\Debug\DecimationFixer.exe
+c:\users\scott\documents\visual studio 2015\Projects\DecimationFixer\bin\Debug\DecimationFixer.pdb
+c:\users\scott\documents\visual studio 2015\Projects\DecimationFixer\bin\Debug\DecimationFixer.xml
+c:\users\scott\documents\visual studio 2015\Projects\DecimationFixer\obj\Debug\DecimationFixer.vbprojResolveAssemblyReference.cache
+c:\users\scott\documents\visual studio 2015\Projects\DecimationFixer\obj\Debug\DecimationFixer.Form1.resources
+c:\users\scott\documents\visual studio 2015\Projects\DecimationFixer\obj\Debug\DecimationFixer.Resources.resources
+c:\users\scott\documents\visual studio 2015\Projects\DecimationFixer\obj\Debug\DecimationFixer.vbproj.GenerateResource.Cache
+c:\users\scott\documents\visual studio 2015\Projects\DecimationFixer\obj\Debug\DecimationFixer.exe
+c:\users\scott\documents\visual studio 2015\Projects\DecimationFixer\obj\Debug\DecimationFixer.xml
+c:\users\scott\documents\visual studio 2015\Projects\DecimationFixer\obj\Debug\DecimationFixer.pdb
