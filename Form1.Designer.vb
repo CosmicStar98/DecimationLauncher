@@ -54,9 +54,9 @@ Partial Class Form1
         Me.lblTopLeft.ForeColor = System.Drawing.Color.White
         Me.lblTopLeft.Location = New System.Drawing.Point(25, 7)
         Me.lblTopLeft.Name = "lblTopLeft"
-        Me.lblTopLeft.Size = New System.Drawing.Size(144, 13)
+        Me.lblTopLeft.Size = New System.Drawing.Size(175, 13)
         Me.lblTopLeft.TabIndex = 0
-        Me.lblTopLeft.Text = "DECIMATION - LAUNCHER"
+        Me.lblTopLeft.Text = "DECIMATION - LAUNCHER - v1.0"
         '
         'lblTopRight
         '
@@ -256,6 +256,7 @@ Partial Class Form1
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.Padding = New System.Windows.Forms.Padding(0, 10, 0, 0)
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Decimation Launcher"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()

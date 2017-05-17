@@ -20,3 +20,8 @@ C:\Users\Scott\Source\Repos\DecimationLauncher\obj\Release\DecimationServerInsta
 C:\Users\Scott\Source\Repos\DecimationLauncher\obj\Release\DecimationLauncher.Form1.resources
 C:\Users\Scott\Source\Repos\DecimationLauncher\obj\Release\DecimationLauncher.Resources.resources
 C:\Users\Scott\Source\Repos\DecimationLauncher\obj\Release\DecimationServerInstaller.vbproj.GenerateResource.Cache
+C:\Users\Scott\Source\Repos\DecimationLauncher\bin\Release\DecimationLauncher.exe.manifest
+C:\Users\Scott\Source\Repos\DecimationLauncher\bin\Release\DecimationLauncher.application
+C:\Users\Scott\Source\Repos\DecimationLauncher\obj\Release\DecimationLauncher.TrustInfo.xml
+C:\Users\Scott\Source\Repos\DecimationLauncher\obj\Release\DecimationLauncher.exe.manifest
+C:\Users\Scott\Source\Repos\DecimationLauncher\obj\Release\DecimationLauncher.application
